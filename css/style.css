@@ -108,7 +108,7 @@ img.logo {
 /**  MAIN TOP REGION DEFAULTS  **/
 
 
-.patients-landing-page #main-top {
+.research-landing-page #main-top {
 	padding-top:0;
 	padding-bottom:15px;
 }
@@ -131,29 +131,29 @@ img.logo {
 	color: #00274c;
 }
 
-.patients-landing-page #top-navigation .nav li, .patients-inner-page #top-navigation .nav li {
+.research-landing-page #top-navigation .nav li, .patients-inner-page #top-navigation .nav li {
 	display: inline-block;
 	font-size:.8em;
 }
 
-.patients-landing-page #top-navigation .nav li.first a, .patients-inner-page #top-navigation .nav li.first a {
+.research-landing-page #top-navigation .nav li.first a, .patients-inner-page #top-navigation .nav li.first a {
 	padding-left: 0;
 }
 
-.patients-landing-page #footer .nav li, .patients-inner-page #footer .nav li {
+.research-landing-page #footer .nav li, .patients-inner-page #footer .nav li {
 	display: inline-block;
 	font-size:.8em;
 }
 
-.patients-landing-page #footer .nav li.first a, .patients-inner-page #footer .nav li.first a {
+.research-landing-page #footer .nav li.first a, .patients-inner-page #footer .nav li.first a {
 	padding-left: 0;
 }
 
-.patients-landing-page-menu .nav li {
+.research-landing-page-menu .nav li {
 	display: block;
 }
 
-.patients-landing-page-menu .nav > li > a, input.patients-lp-rogue-menu-item {
+.research-landing-page-menu .nav > li > a, input.patients-lp-rogue-menu-item {
 	margin-left: 0;
 	background: #00274c;
 	color: #fff;
@@ -171,14 +171,14 @@ input.patients-lp-rogue-menu-item {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, FontAwesome;
 }
 
-.patients-landing-page form input[type="text"] {
+.research-landing-page form input[type="text"] {
 	position:relative;
 	font-family: 'FontAwesome';
 }
 
 
 
-.patients-landing-page-menu .nav > li > a:hover, input.patients-lp-rogue-menu-item:hover {
+.research-landing-page-menu .nav > li > a:hover, input.patients-lp-rogue-menu-item:hover {
 	background: #587abc;
 }
 
@@ -189,7 +189,7 @@ input.patients-lp-rogue-menu-item {
 	background:#fff;
 }
 
-.patients-landing-page #main-upper {
+.research-landing-page #main-upper {
 	background-image: url('/sites/default/files/patients-alert-background.jpg');
 	background-repeat: none;
 	background-size: cover;
@@ -233,7 +233,7 @@ article.white-semi-trans-bg  {
 	background-position: auto;
 }
 
-.patients-landing-page #main-lower h4 a {
+.research-landing-page #main-lower h4 a {
 	display: block;
 	padding: 10px 15px;
 	background: rgba(255,255,255,.8);
@@ -243,30 +243,30 @@ article.white-semi-trans-bg  {
 	box-shadow: 0 0 3px 0 #888;
 }
 
-.patients-landing-page #main-lower h4 a:hover, 
-.patients-landing-page #main-lower h4 a:active, 
-.patients-landing-page #main-lower h4 a:focus {
+.research-landing-page #main-lower h4 a:hover, 
+.research-landing-page #main-lower h4 a:active, 
+.research-landing-page #main-lower h4 a:focus {
 	text-decoration: none;
 
 }
 
-.patients-landing-page #main-lower h4 a:hover {
+.research-landing-page #main-lower h4 a:hover {
 	/*background: rgba(255,203,5,.3);*/
 }
 
-.patients-landing-page #main-lower h4 a.collapsed i.fa-plus{
+.research-landing-page #main-lower h4 a.collapsed i.fa-plus{
 	display: inline-block;
 }
 
-.patients-landing-page #main-lower h4 a:not(.collapsed) i.fa-plus {
+.research-landing-page #main-lower h4 a:not(.collapsed) i.fa-plus {
 	display: none;
 }
 
-.patients-landing-page #main-lower h4 a.collapsed i.fa-minus {
+.research-landing-page #main-lower h4 a.collapsed i.fa-minus {
 	display: none;
 }
 
-.patients-landing-page #main-lower h4 a:not(.collapsed) i.fa-minus {
+.research-landing-page #main-lower h4 a:not(.collapsed) i.fa-minus {
 	display: inline-block;
 	color: #587abc;
 }
