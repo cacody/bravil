@@ -210,6 +210,34 @@ input.patients-lp-rogue-menu-item {
 	padding-right: 20px;
 }
 
+/** carry over from tatooine **/
+
+.icon-bar-block {
+    background: rgba(1,37,122,.9);
+    border: solid 1px #01257a;
+}
+
+.icon-bar {
+  margin-top:-31px;
+  padding-bottom: 10px;
+}
+
+.icon-bar-item {
+   color: #ffffff;
+   font-size: 1.3em;
+}
+
+.icon-bar-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icon-bar-item a:hover {
+  color: #ffcb05;
+}
+
+
+
 /**  <main> DEFAULTS  **/
 
 main {
