@@ -188,13 +188,13 @@ input.patients-lp-rogue-menu-item {
 #main-upper {
 	background:#fff;
 }
-
+//*
 .research-landing-page #main-upper {
 	background-image: url('/sites/default/files/patients-alert-background.jpg');
 	background-repeat: none;
 	background-size: cover;
 	background-position: 0 0;
-}
+}**/
 
 #main-upper p {
 	color: #fff;
