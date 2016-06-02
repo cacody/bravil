@@ -203,10 +203,7 @@
 </div>
 <?php endif; ?>
 
-<?php if (!empty($page['main_top']) || 
-	     (!empty($page['main_upper']) || 
-		 (!empty($page['content']) || 
-		 (!empty($page['bottom']))): ?>
+<?php if (!empty($page['main_top']) || (!empty($page['main_upper']) || (!empty($page['content']) || (!empty($page['main_lower']))): ?>
 		
 <div id="main-top-to-main-bottom">
 
@@ -323,7 +320,7 @@
 <?php if (!empty($page['main_top']) || 
 	     (!empty($page['main_upper']) || 
 		 (!empty($page['content']) || 
-		 (!empty($page['bottom']))): ?>
+		 (!empty($page['main_lower']))): ?>
 
 </div><!-- /#main-top-to-main-bottom -->
 
