@@ -186,7 +186,7 @@ input.patients-lp-rogue-menu-item {
 /**  MAIN UPPER REGION DEFAULTS  **/
 
 #main-upper {
-	background:#fff;
+	background:#00274c;
 }
 //*
 .research-landing-page #main-upper {
@@ -213,7 +213,7 @@ input.patients-lp-rogue-menu-item {
 /** carry over from tatooine **/
 
 .icon-bar-block {
-    background: rgba(1,37,122,.9);
+    /*background: rgba(1,37,122,.9);*/
     border: solid 1px #01257a;
 }
 
