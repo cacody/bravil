@@ -127,8 +127,12 @@ img.logo {
 	copy
 }
 
-#main-top h1 a {
+.research-landing-page #main-top h1 a {
 	color: #fff;
+}
+
+.research-inner-page #main-top h1 a {
+	color: #00274c;
 }
 
 .research-landing-page #main-top ul a {
