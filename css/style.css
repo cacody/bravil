@@ -131,6 +131,15 @@ img.logo {
 	color: #00274c;
 }
 
+.research-landing-page #main-top ul a {
+	color: #fff;
+}
+
+.research-landing-page #main-top ul a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
 .research-landing-page #top-navigation .nav li, .patients-inner-page #top-navigation .nav li {
 	display: inline-block;
 	font-size:.8em;
@@ -215,6 +224,7 @@ input.patients-lp-rogue-menu-item {
 .icon-bar-block {
     /*background: rgba(1,37,122,.9);*/
     border: solid 1px #01257a;
+
 }
 
 .icon-bar {
