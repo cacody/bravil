@@ -262,6 +262,12 @@ article.white-semi-trans-bg  {
 	background-position: auto;
 }**/
 
+.research-landing-page #main-lower h2 {
+	margin-top: 0;
+}
+
+/** these accordions from patients section orig. keeping styles just in case **/ 
+
 .research-landing-page #main-lower h4 a {
 	display: block;
 	padding: 10px 15px;
@@ -323,6 +329,7 @@ article.white-semi-trans-bg  {
 #main-lower .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	background: rgba(255,255,255,.7);
 }
+
 
 #main-lower .panel img.infographic {
 	max-width: 50%;
