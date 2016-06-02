@@ -120,19 +120,16 @@ img.logo {
 #main-top h1 {
 	margin-top: 0;
 	padding: 5px 15px;
-	background: -moz-linear-gradient(left, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.43) 4%, rgba(255,255,255,0.43) 5%, rgba(255,255,255,0.19) 81%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0.01) 0%,rgba(255,255,255,0.43) 4%,rgba(255,255,255,0.43) 5%,rgba(255,255,255,0.19) 81%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(255,255,255,0.01) 0%,rgba(255,255,255,0.43) 4%,rgba(255,255,255,0.43) 5%,rgba(255,255,255,0.19) 81%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-	copy
 }
 
 .research-landing-page #main-top h1 a {
 	color: #fff;
+	font-weight: normal;
 }
 
 .research-inner-page #main-top h1 a {
 	color: #00274c;
+	font-weight: normal;
 }
 
 .research-landing-page #main-top ul a {
