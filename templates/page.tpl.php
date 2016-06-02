@@ -205,12 +205,12 @@
 
 <?php if (!empty($page['main_top'])): ?>
 		
-<div id="main-top-to-main-bottom">
+<div id="main-top-to-main-bottom" class="bg-image">
 
 <?php endif; ?>
 
 <?php if (!empty($page['main_top'])): ?>
-	<div id="main-top" class="bg-image" role="complementary">
+	<div id="main-top" role="complementary">
 	
 		<div class="container">
 		<div class="row">
