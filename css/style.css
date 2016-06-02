@@ -306,13 +306,13 @@ article.white-semi-trans-bg  {
 }
 
 /** MAIN LOWER BOTTOM COMBINED **/
-
-#main-lower-bottom-combined {
+/**
+#main-top-to-main-bottom {
 		background-image: url('/sites/default/files/patients-main-lower-bg-summer-13.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: auto;
-}
+}*/
 
 /**  FOOTER REGION DEFAULTS  **/
 

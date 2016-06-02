@@ -203,6 +203,15 @@
 </div>
 <?php endif; ?>
 
+<?php if (!empty($page['main_top']) || 
+	     (!empty($page['main_upper']) || 
+		 (!empty($page['content']) || 
+		 (!empty($page['bottom']))): ?>
+		
+<div id="main-top-to-main-bottom">
+
+<?php endif; ?>
+
 <?php if (!empty($page['main_top'])): ?>
 	<div id="main-top" class="bg-image" role="complementary">
 	
@@ -281,11 +290,7 @@
 </main><!-- /#main-content -->
 <?php endif; ?>
 
-<?php if (!empty($page['main_lower']) && (!empty($page['main_bottom']))): ?>
 
-<div id="main-lower-bottom-combined">
-
-<?php endif; ?>
 
 <?php if (!empty($page['main_lower'])): ?>
 	<div id="main-lower" role="complementary">
@@ -315,9 +320,12 @@
 	</div><!-- /#main-bottom -->
 <?php endif; ?>
 
-<?php if (!empty($page['main_lower']) && (!empty($page['main_bottom']))): ?>
+<?php if (!empty($page['main_top']) || 
+	     (!empty($page['main_upper']) || 
+		 (!empty($page['content']) || 
+		 (!empty($page['bottom']))): ?>
 
-</div><!-- /#main-lower-bottom-combined -->
+</div><!-- /#main-top-to-main-bottom -->
 
 <?php endif; ?>
 
