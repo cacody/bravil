@@ -226,12 +226,13 @@ article.white-semi-trans-bg  {
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
+/**
 #main-lower {
 	background-image: url('/sites/default/files/patients-main-lower-bg-summer-13.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: auto;
-}
+}**/
 
 .research-landing-page #main-lower h4 a {
 	display: block;
