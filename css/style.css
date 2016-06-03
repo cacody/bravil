@@ -51,6 +51,11 @@
 	float: right;
 }
 
+.field-collection-view {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
 
 /** GLOBAL DEFAULTS **/
 
