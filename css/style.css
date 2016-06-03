@@ -43,6 +43,13 @@
 	border-bottom: none;
 }
 
+.field-name-field-reminder-item {
+	float: left;
+}
+
+.field-name-field-reminder-date {
+	float: right;
+}
 
 
 /** GLOBAL DEFAULTS **/
