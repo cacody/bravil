@@ -18,20 +18,25 @@
 
   /** semi-transparent white backgrounds **/
 
-.white-bg-op-1 {
+.bg-white-op-1 {
 	background: rgba(255,255,255,.1);
 }
-.white-bg-op-2 {
+.bg-white-op-2 {
 	background: rgba(255,255,255,.2);
 }
-.white-bg-op-4 {
+.bg-white-op-4 {
 	background: rgba(255,255,255,.4);
 }
-.white-bg-op-6 {
+.bg-white-op-6 {
 	background: rgba(255,255,255,.6);
 }
-.white-bg-op-8 {
+.bg-white-op-8 {
 	background: rgba(255,255,255,.8);
+}
+
+.text-white, .text-white a, .text-white ul li a {
+	color: #fff;
+	text-decoration: none;
 }
 
 
