@@ -143,7 +143,7 @@ $('.field-collection-item-field-reminders').has('.field-name-field-reminder-item
 $(function(){
 	$('.field-collection-item-field-reminders').has('.field-name-field-reminder-item a').each(function(){
 		var current = $(this);
-		var reminderLink = $current.('.field-name-field-reminder-item a').attr('href'));
+		var reminderLink = $('.field-name-field-reminder-item a').attr('href'));
 		$(current).wrap('<a href="' + reminderLink + '"></a>');
 		$('.field-name-field-reminder-item a').contents().unwrap();
 	});
