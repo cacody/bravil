@@ -133,4 +133,9 @@ event.handled = true;
   });
 
 
+// conditional styling of landing page reminders for rollover effect
+
+$('.field-name-field-reminder-item').has('a').addClass('linked-reminder');
+
+
 });
