@@ -501,8 +501,14 @@ li.department-news-archive-list-item {
 	color: #fff;
 }
 
+.research-inner-page #main-bottom {
+	background-image: url('http://ddstest.sites.uofmhosting.net/sites/default/files/research-landing-page-background.jpg');
+	background-repeat: none;
+	background-size: cover;
+}
+
 .research-inner-page #main-bottom ul li a {
-	color: #000;
+	color: #fff;
 }
 
 /**  FOOTER REGION DEFAULTS  **/
