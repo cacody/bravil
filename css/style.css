@@ -68,7 +68,7 @@
 	color: #000;
 }
 
-a div.field-collection-item-field-reminders:after {
+a div.field-name-field-reminder-date:after {
 	font-family: 'FontAwesome';
     content: "\f0c1";
     float: right;
@@ -78,7 +78,7 @@ a div.field-collection-item-field-reminders:after {
 	background: #fff;
 }
 
-.field-name-field-reminder-item a .fa-chain:before, .fa-link:before {
+a div.field-name-field-reminder-date:before {
     content: "\f0c1";
     display: none;
 }
