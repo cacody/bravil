@@ -91,6 +91,8 @@ a div.field-name-field-reminder-date:before {
 
 .field-name-field-reminder-date {
 	color: #000;
+	font-weight:bold;
+	text-transform: uppercase;
 }
 
 .field-name-field-reminder-date a {
