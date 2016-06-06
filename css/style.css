@@ -351,10 +351,12 @@ main {
 	background-size: ;
 }
 
-article.white-semi-trans-bg  {
+/** inner page regions **/
+
+.research-inner-page main#main-content > div.container {
 	background: rgba(255,255,255,.9);
-	padding: 15px;
 }
+
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
