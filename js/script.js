@@ -133,9 +133,20 @@ event.handled = true;
   });
 
 
-// conditional styling of landing page reminders for rollover effect
+// Research Landing Page - Reminders scripting
 
+// if linked, add class to a parent element for rollover effect
 $('.field-collection-item-field-reminders').has('.field-name-field-reminder-item a').addClass('linked-reminder');
+
+// if linked, 1) remove link from reminder-item, 2) add link to paretn element for block link effect
+
+$(function(){
+	console.log($('.field-name-field-reminder-item a').attr('href'));
+});
+
+
+
+// $('.field-name-field-reminder-item a').contents().unwrap();
 
 
 });
