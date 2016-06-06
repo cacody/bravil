@@ -206,7 +206,11 @@ img.logo {
 
 #main-top h1 {
 	margin-top: 0;
-	padding: 5px 15px;
+	padding: 12px 15px 5px 15px;
+}
+
+.research-inner-page #main-top {
+	background: rgba(0,39,76,.1);
 }
 
 .research-landing-page #main-top h1 a {
