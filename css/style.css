@@ -450,6 +450,10 @@ article.white-semi-trans-bg  {
 	border-top: solid 1px #aaa;
 }
 
+#main-lower li.department-news-list-item {
+	padding: 5px 0px;
+}
+
 /**  MAIN BOTTOM REGION DEFAULTS  **/
 
 #main-bottom {
