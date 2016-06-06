@@ -225,6 +225,12 @@ img.logo {
 
 .research-landing-page #main-top h2 {
 	color: #ffcb05;
+	font-weight:normal;
+}
+
+.field-name-field-important-links .field-item {
+    font-size: 1.2em;
+    padding: 3px 0;
 }
 
 .research-landing-page #main-top ul a {
