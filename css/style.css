@@ -462,6 +462,11 @@ main {
 	border-top: solid 1px #aaa;
 }
 
+#main-lower .department-news-block-footer a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
 #main-lower li.department-news-list-item {
 	padding: 5px 0px;
 }
