@@ -52,7 +52,8 @@
 }
 
 .field-name-field-reminders .entity-field-collection-item {
-	background:;
+	background: #ffcb05;
+    padding: 5px;
 }
 
 .field-collection-container {
