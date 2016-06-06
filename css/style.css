@@ -454,6 +454,12 @@ article.white-semi-trans-bg  {
 	padding: 5px 0px;
 }
 
+/** this actually pertains to the news archive page - not in Main Bottom **/
+li.department-news-archive-list-item {
+	padding: 10px 0;
+	font-size: 1.3em;
+}
+
 /**  MAIN BOTTOM REGION DEFAULTS  **/
 
 #main-bottom {
