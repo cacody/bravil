@@ -412,6 +412,14 @@ article.white-semi-trans-bg  {
 		background-position: auto;
 }*/
 
+#main-bottom h2 {
+	color: #ffcb05;
+}
+
+#main-bottom ul li a {
+	color: #fff;
+}
+
 /**  FOOTER REGION DEFAULTS  **/
 
 #footer {
