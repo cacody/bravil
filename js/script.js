@@ -142,6 +142,7 @@ $('.field-collection-item-field-reminders').has('.field-name-field-reminder-item
 
 $(function(){
 	console.log($('.field-name-field-reminder-item a').attr('href'));
+	$('.field-name-field-reminder-item a').contents().unwrap();
 });
 
 
