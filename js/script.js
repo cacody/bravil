@@ -135,7 +135,7 @@ event.handled = true;
 
 // conditional styling of landing page reminders for rollover effect
 
-$('.field-name-field-reminder-item').has('a').addClass('linked-reminder');
+$('.field-collection-item-field-reminders').has('.field-name-field-reminder-item a').addClass('linked-reminder');
 
 
 });
