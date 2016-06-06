@@ -160,17 +160,17 @@ img.logo {
 
 }
 
-#main-top h1 {
+#main-top h2 {
 	margin-top: 0;
 	padding: 5px 15px;
 }
 
-.research-landing-page #main-top h1 a {
+.research-landing-page #main-top h2 a {
 	color: #fff;
 	font-weight: normal;
 }
 
-.research-inner-page #main-top h1 a {
+.research-inner-page #main-top h2 a {
 	color: #00274c;
 	font-weight: normal;
 }
