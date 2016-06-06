@@ -141,8 +141,12 @@ $('.field-collection-item-field-reminders').has('.field-name-field-reminder-item
 // if linked, 1) remove link from reminder-item, 2) add link to paretn element for block link effect
 
 $(function(){
-	console.log($('.field-name-field-reminder-item a').attr('href'));
-	$('.field-name-field-reminder-item a').contents().unwrap();
+	$('.field-collection-item-field-reminders').has('.field-name-field-reminder-item a').each(function(){
+		var current = $(this);
+		var reminderLink = $('.field-name-field-reminder-item a').attr('href'));
+		$(current).wrap('<a href="' + reminderLink + '"></a>');
+		$('.field-name-field-reminder-item a').contents().unwrap();
+	});
 });
 
 
