@@ -74,6 +74,10 @@
     float: right;
 }
 
+.linked-reminder:hover {
+	background: #fff;
+}
+
 .field-name-field-reminder-item a .fa-chain:before, .fa-link:before {
     content: "\f0c1";
     display: none;
