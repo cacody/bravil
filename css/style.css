@@ -68,7 +68,7 @@
 	color: #000;
 }
 
-.field-name-field-reminder-item a:after {
+a div.field-collection-item-field-reminders:after {
 	font-family: 'FontAwesome';
     content: "\f0c1";
     float: right;
