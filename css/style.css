@@ -68,6 +68,23 @@
 	color: #000;
 }
 
+.field-name-field-reminder-item a:after {
+	font-family: 'FontAwesome';
+    content: "\f0c1";
+    float: right;
+}
+
+.field-name-field-reminder-item a .fa-chain:before, .fa-link:before {
+    content: "\f0c1";
+    display: none;
+}
+
+.field-name-field-reminder-item a:hover.fa {
+    background: #ffffff;
+    cursor: pointer;
+}
+
+
 .field-name-field-reminder-date {
 	color: #000;
 }
