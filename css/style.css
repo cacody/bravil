@@ -445,6 +445,11 @@ article.white-semi-trans-bg  {
 	max-width: 50%;
 }
 
+#main-lower .department-news-block-footer {
+	padding-top: 15px;
+	border-top: solid 1px #aaa;
+}
+
 /**  MAIN BOTTOM REGION DEFAULTS  **/
 
 #main-bottom {
