@@ -497,8 +497,12 @@ li.department-news-archive-list-item {
 	margin-top: 0;
 }
 
-#main-bottom ul li a {
+.research-landing-page #main-bottom ul li a {
 	color: #fff;
+}
+
+.research-inner-page #main-bottom ul li a {
+	color: #000;
 }
 
 /**  FOOTER REGION DEFAULTS  **/
