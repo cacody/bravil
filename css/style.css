@@ -339,6 +339,7 @@ input.patients-lp-rogue-menu-item {
 .icon-bar-item {
    color: #ffffff;
    font-size: 1.3em;
+   padding: 17px;
 }
 
 .icon-bar-item a {
