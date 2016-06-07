@@ -347,6 +347,10 @@ input.patients-lp-rogue-menu-item {
   text-decoration: none;
 }
 
+a .icon-bar-item-title {
+	
+}
+
 .icon-bar-item a:hover {
   color: #ffcb05;
 }
