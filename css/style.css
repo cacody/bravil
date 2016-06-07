@@ -49,10 +49,10 @@
 	margin-top: 12px;
     padding-top: 5px;
     border-top: solid 1px #aaa;
+    background: rgba(255,255,255,.1);
 }
 
 .field-name-field-reminders .entity-field-collection-item {
-	background: #ffcb05;
     padding: 5px;
 }
 
@@ -61,7 +61,9 @@
 }
 
 .field-name-field-reminder-item {
-	color: #000;
+	color: #fff;
+	font-size: 1.3em;
+	text-shadow: 0 1px 0 #000;
 }
 
 .field-name-field-reminder-item a {
@@ -90,9 +92,10 @@ a div.field-name-field-reminder-date:before {
 
 
 .field-name-field-reminder-date {
-	color: #000;
+	color: #ffcb05;
 	font-weight:bold;
 	text-transform: uppercase;
+	font-size: 1.3em;
 }
 
 .field-name-field-reminder-date a {
@@ -230,7 +233,8 @@ img.logo {
 
 .field-name-field-important-links .field-item {
     font-size: 1.2em;
-    padding: 3px 0;
+    padding: 7px 0;
+    text-transform: uppercase;
 }
 
 .research-landing-page #main-top ul a {
