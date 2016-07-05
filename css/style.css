@@ -379,13 +379,12 @@ main {
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
-/**
 #main-lower {
-	background-image: url('/sites/default/files/patients-main-lower-bg-summer-13.jpg');
+	background-image: url('/sites/default/files/research-landing-page-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: auto;
-}**/
+}
 
 .research-landing-page #main-lower h2 {
 	margin-top: 0;

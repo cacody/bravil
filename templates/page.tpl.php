@@ -286,7 +286,7 @@
 
 
 <?php if (!empty($page['main_lower'])): ?>
-	<div id="main-lower" role="complementary" class="bg-white-op-1">
+	<div id="main-lower" role="complementary">
 		<div class="container">
 		<div class="row">
 			<div class="col-md-12">
