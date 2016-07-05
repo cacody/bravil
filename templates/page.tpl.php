@@ -203,14 +203,10 @@
 </div>
 <?php endif; ?>
 
-<?php if (!empty($page['main_top'])): ?>
-		
-<div id="main-top-to-main-bottom" class="bg-image">
 
-<?php endif; ?>
 
 <?php if (!empty($page['main_top'])): ?>
-	<div id="main-top" role="complementary">
+	<div id="main-top" role="complementary" class="bg-image">
 	
 		<div class="container">
 		<div class="row">
@@ -317,11 +313,7 @@
 	</div><!-- /#main-bottom -->
 <?php endif; ?>
 
-<?php if (!empty($page['main_top'])): ?>
 
-</div><!-- /#main-top-to-main-bottom -->
-
-<?php endif; ?>
 
 <?php if (!empty($page['footer'])): ?>
 	<footer id="footer" role="contentinfo">
