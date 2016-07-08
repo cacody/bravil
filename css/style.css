@@ -297,6 +297,10 @@ input.research-lp-rogue-menu-item {
 	background: #587abc;
 }
 
+.four-themes {
+	display:inline-block;
+}
+
 .four-themes img {
 	width: 100%;
 	max-width:240px;
