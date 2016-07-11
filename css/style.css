@@ -406,6 +406,8 @@ main {
 
 .research-landing-page #main-lower ul li {
 	list-style: none;
+	font-size: 1.4em;
+    margin-bottom: 18px;
 }
 
 .research-landing-page #main-lower ul a:hover {
