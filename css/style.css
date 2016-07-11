@@ -395,8 +395,17 @@ main {
 	color: #fff;
 }
 
+.research-landing-page #main-lower ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
 .research-landing-page #main-lower ul a {
 	color: #fff;
+}
+
+.research-landing-page #main-lower ul li {
+	list-style: none;
 }
 
 .research-landing-page #main-lower ul a:hover {
