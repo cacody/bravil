@@ -381,14 +381,20 @@ main {
 	background: rgba(255,255,255,.9);
 }
 
+/** COMBINED-main-lower-main-bottom **/
 
-/**  MAIN LOWER REGION DEFAULTS  **/
-
-#main-lower {
+.combined-main-lower-and-bottom {
 	background-image: url('/sites/default/files/research-landing-page-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: auto;
+}
+
+
+/**  MAIN LOWER REGION DEFAULTS  **/
+
+#main-lower {
+	
 }
 
 #main-lower .main-row-container {
