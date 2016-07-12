@@ -210,7 +210,7 @@
 	
 		<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 main-row-container">
 				<div class="row">
 					<?php print render($page['main_top']); ?>
 				</div>
@@ -224,7 +224,7 @@
 	<div id="main-upper" role="complementary">
 		<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 main-row-container">
 				<div class="row">
 					<?php print render($page['main_upper']); ?>
 				</div>
@@ -289,7 +289,7 @@
 	<div id="main-lower" role="complementary">
 		<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 main-row-container">
 				<div class="row">
 					<?php print render($page['main_lower']); ?>
 				</div>
@@ -303,7 +303,7 @@
 	<div id="main-bottom" role="complementary">
 		<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 main-row-container">
 				<div class="row">
 					<?php print render($page['main_bottom']); ?>
 				</div>
@@ -319,7 +319,7 @@
 	<footer id="footer" role="contentinfo">
 		<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 main-row-container">
 				<div class="row">
 					<?php print render($page['footer']); ?>
 				</div>

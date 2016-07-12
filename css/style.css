@@ -390,6 +390,10 @@ main {
 	background-position: auto;
 }
 
+#main-lower .main-row-container {
+	background: rgba(0,0,0,.5);
+}
+
 .research-landing-page #main-lower h2 {
 	margin-top: 0;
 	color: #fff;
