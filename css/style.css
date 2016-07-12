@@ -397,8 +397,16 @@ main {
 	
 }
 
-#main-lower .main-row-container {
+.research-landing-page #main-lower .main-row-container {
 	background: rgba(0,0,0,.5);
+}
+
+.research-landing-page #main-lower .block-views h2 {
+	padding: 17px 0px 0px 34px;
+}
+
+.research-landing-page #main-lower .view {
+	padding: 0px 35px 35px 35px;
 }
 
 .research-landing-page #main-lower h2 {
