@@ -401,11 +401,11 @@ main {
 	background: rgba(0,0,0,.5);
 }
 
-.research-landing-page #main-lower .block-views h2 {
+.research-landing-page #main-lower .block-views h2, .research-landing-page #main-lower .block-aggregator h2 {
 	padding: 17px 0px 0px 34px;
 }
 
-.research-landing-page #main-lower .view {
+.research-landing-page #main-lower .view, .research-landing-page #main-lower .block-aggregator ul {
 	padding: 0px 35px 35px 35px;
 }
 
