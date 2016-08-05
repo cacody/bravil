@@ -393,8 +393,8 @@ main {
 
 /**  MAIN LOWER REGION DEFAULTS  **/
 
-#main-lower {
-	
+.research-inner-page #main-lower {
+	background-color: #232323;	
 }
 
 .research-landing-page #main-lower .main-row-container {
