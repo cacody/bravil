@@ -386,7 +386,7 @@ a .icon-bar-item-title {
 	background-size: ;
 }
 
-#main-content .panel:last-child {
+.panel:last-child {
     margin-bottom: 10px;
 }
 
@@ -399,6 +399,7 @@ a .icon-bar-item-title {
 .region-content-upper ul.nav.nav-pills {
 	margin-top: 15px;
 }
+
 
 .research-inner-page main#main-content > div.container {
 	background: rgba(255,255,255,.9);
