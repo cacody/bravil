@@ -390,6 +390,13 @@ main {
     margin-bottom: 10px;
 }
 
+.research-inner-page table th {
+	background: rgba(0,39,76,.1);
+	color: #000;
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
 /** inner page regions **/
 
 .region-content-upper {
