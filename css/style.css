@@ -397,6 +397,10 @@ main {
 	font-weight: normal;
 }
 
+.research-inner-page .table.td-breathing-room >tbody > tr {
+	padding: 20px;
+}
+
 /** inner page regions **/
 
 .region-content-upper {
