@@ -379,12 +379,13 @@ a .icon-bar-item-title {
 
 /**  <main> DEFAULTS  **/
 
-#main {
+/*#main {
 	background: url('/sites/default/files/Dental-School-blue-35.png');
 	background-repeat: no-repeat;
 	background-position: ;
 	background-size: ;
-}
+}*
+/
 
 .panel:last-child {
     margin-bottom: 10px;
