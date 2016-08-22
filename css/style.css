@@ -203,6 +203,7 @@ img.logo {
 	padding-bottom:15px;
 }
 
+
 #main-top {
 
 }
@@ -210,7 +211,17 @@ img.logo {
 #main-top h1 {
 	margin-top: 0;
 	padding: 12px 15px 5px 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+80,000000+100&0+0,0.33+4,0+100 */
+background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.33) 4%, rgba(0,0,0,0.07) 80%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.33) 4%,rgba(0,0,0,0.07) 80%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.33) 4%,rgba(0,0,0,0.07) 80%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
 }
+
+.research-inner-page #main-top h1 {
+	background: transparent;
+} 
 
 .research-inner-page #main-top {
 	background: rgba(0,39,76,.1);
@@ -377,6 +388,14 @@ main {
 
 /** inner page regions **/
 
+.region-content-upper {
+  	margin-bottom: 15px;
+}
+
+.region-content-upper ul.nav.nav-pills {
+	margin-top: 15px;
+}
+
 .research-inner-page main#main-content > div.container {
 	background: rgba(255,255,255,.9);
 }
@@ -398,7 +417,7 @@ main {
 }
 
 .research-landing-page #main-lower .main-row-container {
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,.2);
 }
 
 .research-landing-page #main-lower .block-views h2, .research-landing-page #main-lower .block-aggregator h2 {
@@ -541,6 +560,8 @@ li.department-news-archive-list-item {
 #main-bottom h2 {
 	color: #ffcb05;
 	margin-top: 0;
+	font-size:1.4em;
+	font-weight:normal;
 }
 
 .research-landing-page #main-bottom ul li a {
@@ -838,7 +859,13 @@ li.department-news-archive-list-item {
 }
 
 
+@media (min-width: 1242px) {
 
+	.research-landing-page #main-top.bg-image {
+        background-position-y: -165px !important;
+}
+
+}
 
 
 
