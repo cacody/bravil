@@ -66,6 +66,8 @@
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
   <?php print $scripts; ?>
 </head>
 <body<?php print $body_attributes; ?>>
