@@ -153,12 +153,21 @@ a.tel, a.tel:hover, a.tel:active {
 #top-navigation .nav > li > a, #footer .nav > li > a  {
 	padding: 0 8px;
 	color: #ddd;
-	font-size: .9em;
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #top-navigation .nav > li > a:hover, #footer .nav > li > a:hover {
 	background: transparent;
 	text-decoration: underline;
+	color: #ffcb05;
+}
+
+.social-media-icons i {
+	color: #fff;
+}
+
+.social-media-icons i:hover {
 	color: #ffcb05;
 }
 
