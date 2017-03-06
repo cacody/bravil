@@ -709,6 +709,14 @@ li.department-news-archive-list-item {
 
 	  /* Mobile Navigation */
 
+	#top-navigation .custom-hide {
+		display: none;
+	}
+
+	.region-top-nav .custom-hide {
+		display: none;
+	}
+
 	.button {
 		padding:3px;
 		margin:0;
